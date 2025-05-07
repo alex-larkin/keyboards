@@ -1,13 +1,13 @@
-﻿c bidayuh generated from template at 2025-04-30 12:28:20
-c with name "bidayuh"
+﻿c salako-rara generated from template at 2025-04-30 12:28:20
+c with name "salako-rara"
 store(&VERSION) '15.0'
-store(&NAME) 'BidBiatahBS'
+store(&NAME) 'Salako-Rara'
 store(&COPYRIGHT) 'Copyright © Grace Oon Bee Tan'
-store(&KEYBOARDVERSION) '1.1'
+store(&KEYBOARDVERSION) '1.0'
 store(&TARGETS) 'any'
-store(&BITMAP) 'bidayuh.ico'
-store(&VISUALKEYBOARD) 'bidayuh.kvks'
-store(&LAYOUTFILE) 'bidayuh.keyman-touch-layout'
+store(&BITMAP) 'salako_rara.ico'
+store(&VISUALKEYBOARD) 'salako_rara.kvks'
+store(&LAYOUTFILE) 'salako_rara.keyman-touch-layout'
 
 begin Unicode > use(main)
 begin NewContext > use(NewContext)
@@ -44,7 +44,7 @@ group(main) using keys
 + [SHIFT K_T] > 'T'
 + [SHIFT K_S] > 'S'
 + [SHIFT K_R] > 'R'
-+ [SHIFT K_Q] > 'Ŭ'
++ [SHIFT K_Q] > 'Q'
 + [SHIFT K_P] > 'P'
 + [SHIFT K_O] > 'O'
 + [SHIFT K_N] > 'N'
@@ -80,7 +80,7 @@ group(main) using keys
 + [K_T] > 't'
 + [K_S] > 's'
 + [K_R] > 'r'
-+ [K_Q] > 'ŭ'
++ [K_Q] > 'q'
 + [K_P] > 'p'
 + [K_O] > 'o'
 + [K_N] > 'n'
@@ -109,20 +109,12 @@ group(main) using keys
 + [K_2] > '2'
 + [K_1] > '1'
 
-
-'a' + '-' > U+0101
-'e' + '-' > U+0113
-'i' + '-' > U+012B
-'o' + '-' > U+014D
-'u' + '-' > U+016B
-'ŭ' + '-' > U+016D U+0304
-
-'A'+ '-' > U+0100
-'E' + '-' > U+0112
-'I' + '-' > U+012A
-'O' + '-' > U+014C
-'U' + '-' > U+016A
-'Ŭ' + '-' > U+016C U+0304
+'g' + '-' > U+006B U+006E U+0067
+'n' + '-' > U+0074 U+006E
+'m' + '-' > U+0070 U+006D
+'G' + '-' > U+004B U+004E U+0047
+'N' + '-' > U+0054 U+004E
+'M' + '-' > U+0050 U+004D
 
 
 store(&CasedKeys) [K_A] .. [K_Z]
@@ -148,4 +140,3 @@ group(detectStartOfSentence) readonly
     any(sentencePunctuation) ' ' > layer('shift')
     any(sentencePunctuation) '  ' > layer('shift')
     nomatch > layer('default')
-

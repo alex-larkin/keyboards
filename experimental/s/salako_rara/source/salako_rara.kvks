@@ -2,7 +2,7 @@
 <visualkeyboard>
   <header>
     <version>10.0</version>
-    <kbdname>bidayuh</kbdname>
+    <kbdname>salako_rara</kbdname>
     <flags/>
   </header>
   <encoding name="unicode" fontname="Arial" fontsize="12">
@@ -38,7 +38,7 @@
       <key vkey="K_N">N</key>
       <key vkey="K_O">O</key>
       <key vkey="K_P">P</key>
-      <key vkey="K_Q">Ŭ</key>
+      <key vkey="K_Q">Q</key>
       <key vkey="K_R">R</key>
       <key vkey="K_S">S</key>
       <key vkey="K_T">T</key>
@@ -89,7 +89,7 @@
       <key vkey="K_N">n</key>
       <key vkey="K_O">o</key>
       <key vkey="K_P">p</key>
-      <key vkey="K_Q">ŭ</key>
+      <key vkey="K_Q">q</key>
       <key vkey="K_R">r</key>
       <key vkey="K_S">s</key>
       <key vkey="K_T">t</key>
